@@ -1,0 +1,13 @@
+No terminal
+
+git --version
+
+git config --global user.name "Your Name"
+git config --global user.email "youremail@domain.com"
+
+
+git init //para criar um novo repositorio vazio dentro da pasta local "C:\ ... \Fundamentos"
+
+git status
+
+git remote add https://github.com/lucasfernandsrj/Javascript.git
