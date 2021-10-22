@@ -11,3 +11,11 @@ git init //para criar um novo repositorio vazio dentro da pasta local "C:\ ... \
 git status
 
 git remote add https://github.com/lucasfernandsrj/Javascript.git
+
+git add .
+
+git status
+
+git commit -m "Aula 1"
+
+git push origin master
