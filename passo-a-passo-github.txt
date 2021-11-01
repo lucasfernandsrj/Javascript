@@ -19,3 +19,16 @@ git status
 git commit -m "Aula 1"
 
 git push origin master
+
+
+#Enviar as atualizações
+
+git add .
+
+git status
+
+git commit -m "..."
+
+git status
+
+git push origin master
