@@ -4,7 +4,13 @@ function apresentar(nome){
 
 //Arrow function
 
-const apresentarArrow = nome2 => `Meu texto ${nome}`;
+const apresentarArrow = nome2 => `Meu texto ${nome2}`;
+
+
+//Arrow function também não tem suporte à hoisting.
+
+console.log(somaValores(1,1)) //ReferenceError: Cannot access 'somaValores' before initialization
+
 const somaValores = (num1, num2) => num1 + num2;
 
 //Arrow function extenso
